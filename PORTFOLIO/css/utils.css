@@ -1,0 +1,32 @@
+.center{
+    text-align: center;
+    align-items: center;
+}
+.black{
+    background-color: black;
+}
+.grey{
+    background-color: rgb(29, 29, 29);
+}
+.large-text{
+    font-size: 4em;
+    font-weight: bolder;
+}
+hr{
+    
+    width: 65%;
+    
+ }
+ .heading{
+    font-size: 65px;
+    font-weight: bold;
+    margin: 50px;
+    text-decoration: underline;
+ }
+ .sub-heading{
+    font-size: 40px;
+    font-weight: italic;
+ }
+ .text{
+    font-size: 14px;
+ }
