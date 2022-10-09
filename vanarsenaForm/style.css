@@ -1,0 +1,56 @@
+.feet{
+    background-image: url(../vanarsenaForm/images/pic.jpg);
+    background-repeat:no-repeat;
+    background-position: center top;
+    border-radius: 50%;
+    right: 1%;
+    bottom: 5%;
+    height:105px;
+    width:120px;
+    position: absolute;
+ }
+ .feeet{
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    color: white;
+ }
+
+
+
+body{
+    background-image: url(../vanarsenaForm/images/pexels-himesh-mehta-3519190.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    color:white ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    text-shadow: 0 0 5px orange;
+    font-weight: bold;  
+}
+.qw{
+    color: white;
+
+margin: 20px;
+}
+#myform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 20px;
+}
+.btn{
+    width: 100px;
+    
+    
+}
+.btn:hover{
+    background-color: orange;
+}
+#bigbox{
+    width: 80%;
+}
