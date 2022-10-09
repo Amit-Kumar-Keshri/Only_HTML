@@ -1,0 +1,147 @@
+* {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  /* display: inline; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar {
+  background-color: rgb(29, 29, 29);
+  text-align: center;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a {
+  color: #cbcbe9;
+  display: inline-block;
+  padding: 14px 16px;
+  text-align: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  font-size: 14px;
+}
+
+.navbar ul {
+  align-items: center;
+}
+.navbar ul a {
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+.navbar a:hover {
+  /* background-color: rgb(180, 35, 35); */
+  color: rgb(255, 255, 255);
+}
+.resume {
+  border: 2px solid white;
+  border-radius: 9px;
+}
+.hero {
+  display: flex;
+  display: inline;
+}
+.title-container {
+  display: flex;
+}
+.projects {
+  padding: 20px;
+  width: 65%;
+}
+.project-title{
+  font-size: 16px;
+}
+.card,
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.preview{
+  margin: 10px;
+}
+.preview a {
+  font-size: 12px;
+}
+.card {
+  flex-direction: column;
+  margin: 15px 10px;
+  padding: 15px;
+}
+.card img {
+  height: 180px;
+  width: 200px;
+  border-radius: 15px;
+  margin: 10px 20px;
+}
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.tech-stack img {
+  height: 180px;
+  width: 200px;
+  border-radius: 15px;
+  margin: 10px 20px;
+}
+.project-btn{
+  border: 2px solid pink;
+  border-radius: 40px;
+  padding: 7px;
+  
+  color: #cbcbe9;
+}
+.web-dev,
+.ios-dev {
+  display: flex;
+  float: left;
+}
+.socials-container {
+  display: flex;
+  flex-direction: column;
+}
+/* .socials-container p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+.socials-container img {
+  height: 40px;
+  width: 45px;
+  border-radius: 15px;
+  margin: 10px 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 2px solid pink;
+}
+.footer {
+  /* position: ; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+
+  color: white;
+  text-align: center;
+}
+
